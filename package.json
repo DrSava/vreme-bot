@@ -1,6 +1,16 @@
-"dependencies": {
-  "axios": "^1.6.0",
-  "discord.js": "^14.24.2",
-  "dotenv": "^17.2.3",
-  "node-cron": "^3.0.3"
+{
+  "name": "vremenska-prognoza-bot",
+  "version": "1.0.0",
+  "description": "Discord bot za prognozu vremena",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "discord.js": "^14.24.2",
+    "dotenv": "^17.2.3",
+    "node-cron": "^3.0.3"
+  }
 }
