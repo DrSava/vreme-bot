@@ -65,7 +65,7 @@ client.once("ready", () => {
     console.log(`Logovan kao ${client.user.tag}`);
 
     // POKREĆE SE SVAKI SAT U :00
-    cron.schedule("0 * * * *", () => {
+    cron.schedule("* * * * *", () => {
         console.log("Cron aktiviran - šaljem prognozu…");
         sendWeather();
     });
